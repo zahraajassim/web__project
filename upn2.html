@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<style>
+     /*add full-width input fields*/
+
+     input[type=text],
+     input[type=password] {
+         width: 100%;
+         padding: 12px 20px;
+         margin: 8px 0;
+         display: inline-block;
+         border: 2px solid #ccc;
+         box-sizing: border-box;
+     }
+     /* set a style for the main container */
+     .main-container {
+         dir ="rtl" align="right" padding-right: 15px;
+         padding-left: 15px;
+         margin-right: auto;
+         margin-left: auto;
+         max-width: 700px;
+     }
+
+
+     /* set a style for all buttons*/
+
+     button {
+         background-color: slateblue;
+         color: white;
+         padding: 15px 20px;
+         margin: 8px 0;
+         cursor: pointer;
+         width: 100%;
+     }
+     /*set styles for the cancel button*/
+
+     .cancelbtn {
+         padding: 15px 20px;
+         background-color: #FF2E00;
+     }
+     /*float cancel and signup buttons and add an equal width*/
+
+     .cancelbtn,
+     .signupbtn {
+         float: left;
+         width: 50%;
+     }
+     /*add padding to container elements*/
+
+     .container {
+         padding: 16px;
+     }
+     /*clear floats*/
+
+     .clearfix::after {
+         content: "";
+         clear: both;
+         display: table;
+     }
+     /*styles for cancel button and signup button
+    on extra small screens*/
+
+     @media screen and (max-width: 300px) {
+         .cancelbtn,
+         .signupbtn {
+             width: 100%;
+         }
+     }
+</style>
+<body>
+    <div class="main-container">
+        <h2>Create a new account</h2>
+        <!--Step 1:Adding HTML-->
+        <form action="home.html" style="border:1px solid #ccc">
+            <div class="container">
+                <label><b>E-mail</b></label>
+                <input type="text" placeholder="Enter your email here" name="email" required>
+
+                <label><b>password</b></label>
+                <input type="password" placeholder="password" name="psw" required>
+
+                <label><b>password confirmation </b></label>
+                <input type="password" placeholder="password confirmation" name="psw-repeat" required>
+
+
+                <label><b>Driving license number</b></label>
+                <input type="text" placeholder="Enter your driver's license number here" name="number" required>
+
+
+
+                <label><b>Driving license validity</b></label>
+                <input type="text" placeholder="Enter your driver's license validity here" name="number" required>
+                <input type="checkbox" checked="checked"> Remember me
+                <div class="clearfix">
+                    <button type="submit" class="signupbtn">Create an account</button>
+                    <button type="button" class="cancelbtn">Cancel</button>
+
+
+                </div>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

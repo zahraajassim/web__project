@@ -1,0 +1,93 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main_bg{
+   background-color:#ecf0fe39;
+    max-width: 1280px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.form{
+    width: 650px;
+}
+
+.form-text{
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+.form-text h1 span img{
+    margin: 0 10px;
+
+}
+.form-text h1{
+    color: hsl(230, 85%, 37%, 0.64);
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 40px;
+}
+
+.main-form div{
+    margin: 10px 10px;
+    width: 300px;
+    display: inline-block;/*يخلي بشكل مرتب ومتوازي*/
+}
+/* صفات العناصر داخل ال وهي موجوده داخل البوتونinput */
+.main-form div input {
+    width: 100%;
+    font-family: 'Akaya Telivigala', cursive;
+    background: none;
+    border: 1px solid hsl(252, 74%, 38%, 0.53);
+    font-size: 20px;
+    color: hsl(252, 74%, 38%, 0.53);
+    outline: none;
+    padding: 3px 0 3px 10px;
+    margin-top: 10px;
+}
+.main-form div input:hover{
+    font-family: 'Akaya Telivigala', cursive;
+    width: 100%;
+    background-color: #dad4ec64 !important;
+    color: black !important;
+}
+
+/*صفات الاسماء فوق البوتون*/
+.main-form div span{
+    width: 100%;
+    font-family: 'Akaya Telivigala', cursive;
+    color: black;
+    font-size: 25px;
+}
+
+#submit {
+    width: 100%;
+    text-align: center;
+}
+/*for button اسم البوتون  */
+#submit input{
+    font-family: 'Akaya Telivigala', cursive;
+    width: 200px;
+    background-color: slateblue ;
+    color: black ;
+    transition: all .3s;
+}
+/*for click button*/
+#submit input:hover{
+    font-family: 'Akaya Telivigala', cursive;
+    width: 200px;
+    background-color: black !important;
+    color: #fff !important;
+}
+#submit input:active{
+    font-size: 19px;
+    background-color: rgb(46, 20, 5) !important;
+    color: #fff !important;
+}
+
+
+

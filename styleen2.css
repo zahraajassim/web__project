@@ -1,0 +1,190 @@
+﻿
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a,
+img,
+span,
+label,
+input,
+button,
+ion-icon {
+	display: block;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+	list-style: none;
+}
+body {
+	min-height: 100vh;
+	background: #fff;
+	color: black;
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: black;
+	transition: all .50s ease;
+}
+.navbar {
+	display: flex;
+	
+}
+/*صفات الهوم والي يمها*/
+	.navbar a {
+		color: #fff;
+		font-size: 1.1rem;
+		font-weight: 700;
+		padding: 15px 5px;
+		margin: 0px 30px;
+		transition: all .50s ease;
+	}
+	/*تغيير لون عند ضغط عليه*/
+		.navbar a:hover {
+			color: slateblue;
+		}
+
+		.navbar a.active {
+			color: slateblue;
+		}
+		
+/*لايقونه تسجيل الدخول*/
+.main {
+	display: flex;
+	align-items: center;
+	align-items:center;
+}
+
+	.main a {
+		margin-right: 25px;
+		margin-left: 10px;
+		color:#fff;
+		font-size: 1.1rem;
+		font-weight: 500;
+		transition: all .50s ease;
+	}
+
+.user {
+	display: flex;
+	align-items: center;
+}
+
+/*ايقونه يم تسجيل الدخول*/
+
+	.user i {
+		color: slateblue;
+		font-size: 28px;
+		margin-right: 7px;
+	}
+	/*من اضغط على تسجيل الدخول*/
+.main a:hover {
+	color: slateblue;
+}
+/*صفات تسجيل الدخول الاساسيه*/
+#menu-icon {
+	font-size: 35px;
+	color: #fff;
+	cursor: pointer;
+	z-index: 10001;
+	display: none;
+}
+
+@media (min-width: 580px) {
+
+	/**
+  يحدد مكان توازي الشعار
+   */
+	.container {
+		margin-inline: auto;
+		max-width: 1000px;
+	}
+}
+/*يحدد ارتفاع الشعار*/
+
+.hero {
+	display: flex;
+	align-items: center;
+	padding-top: 80px;
+	min-height: 100vh;
+}
+
+
+
+/*صوره السياره ومواصفاتها*/
+.hero-banner {
+	display: block;
+	background: url("1.jpg") no-repeat;
+	background-size: cover;
+	background-position: left;
+	position: absolute;
+	top: 5px;
+	bottom: 20px;
+	left: 65%;
+	width: 900px;
+	border-radius: 20px;
+	z-index: -1;
+	left: auto;
+	right: 40px;
+	width: 630px;
+}
+.social-icon a {
+	color: black;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	font-size: 1.7em;
+	padding-right: 30px;
+	transform: translate(-53%,50%);
+}
+
+.li {
+	list-style: none;
+	margin: 10px 30px;
+	display: inline-block;
+	font-size: 20px;
+	padding: 20px 20px;
+	color: slateblue;
+	border: 1px solidblack;
+	border-radius: 50%;
+	transform: .5s;
+}
+
+	.li:hover {
+		color: slateblue;
+		border: 1px solid#fff;
+		transform: .5s;
+	}
+	/*محاذات الشعار */
+
+	.hero .container {
+		width: 100%;
+	}
+
+
+
+	
+
+
+	
+

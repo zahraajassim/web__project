@@ -1,0 +1,71 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        form {
+            text-align: left;
+            border: 2px solid #ccc;
+        }
+
+        input[type=text], input[type=password] {
+            text-align: left;
+            width: 100%;
+            padding: 12px 2px;
+            margin: 10px 2px;
+            display: inline-block;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            background-color: slateblue;
+            color: black;
+            padding: 10px 15px;
+            margin: 8px 0px;
+            border: none;
+            cursor: pointer;
+            width: 10%;
+            border-radius: 0px;
+            text-align: center;
+        }
+
+            button :hover {
+                opacity: 0;
+            }
+
+        .container {
+            padding: 10px;
+        }
+
+        span.psw {
+            float: left;
+            padding-top: 0px;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="home.html">
+        <div class="container" style="direction:rtl">
+            <label for="uname"><b>User name</b></label>
+            <input type="text" placeholder="Enter user name" name="uname" required>
+
+            <label for="psw"><b>password</b></label>
+            <input type="password" placeholder="Enter password" name="psw" required>
+
+            <button type="submit">Log in</button>
+            <label>
+                <br>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+        </div>
+        <div class="container" style="background-color:slateblue">
+            <a href="up.html">create new access</a></span>
+
+        </div>
+    </form>
+</body>
+</html>
